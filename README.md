@@ -35,4 +35,10 @@ to add a new patient:
 to search for an appointment for a specific treatment:
 #### `$ node src/index.js search-appointment "treatment-name"`
 
+to book an appointment:
+#### `$ node src/index.js book-appointment "appointment-datetime" patient-id`
+
+to finish an appointment:
+#### `$ node src/index.js finish-appointment "appointment-datetime"`
+
 
